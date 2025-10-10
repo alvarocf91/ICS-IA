@@ -2,7 +2,7 @@ function Footer() {
   return (
     <footer className="footer-coffee py-5 mt-auto">
       <div className="container text-center text-white">
-        <p className="mb-3">&copy; 2025 CaféLocal. Todos los derechos reservados.</p>
+        <p className="mb-3">&copy; 2025 Floristeria. Todos los derechos reservados.</p>
         <div className="mb-3">
           <a href="#" className="footer-link me-4">Política de Privacidad</a>
           <a href="#" className="footer-link me-4">Términos de Uso</a>

@@ -1,20 +1,20 @@
-/* NavBar */
-.bg-brown {
-  background-color: #5C4033; 
+/* Color principal verde */
+.bg-green {
+  background-color: #2e7d32; /* Verde natural */
 }
 
-/* Main Section */
-.btn-outline-brown {
-  color: #5C4033;
-  border-color: #5C4033;
+/* Botón con borde verde */
+.btn-outline-green {
+  color: #2e7d32;
+  border-color: #2e7d32;
 }
 
-.btn-outline-brown:hover {
-  background-color: #5C4033;
+.btn-outline-green:hover {
+  background-color: #2e7d32;
   color: #fff;
 }
 
-/* Cards Section */
+/* Tarjetas (cards) */
 .row.no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -40,6 +40,7 @@
   }
 }
 
+/* Estilo de las tarjetas */
 .card {
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -48,7 +49,7 @@
 
 .card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 8px 25px rgba(240, 165, 0, 0.6);
+  box-shadow: 0 8px 25px rgba(46, 125, 50, 0.4); /* Verde más suave */
 }
 
 .card-img-top {
@@ -59,46 +60,45 @@
   object-fit: cover;
 }
 
-.btn-coffee {
-  background-color: #6f4e37; 
-  color: #f3e5ab; 
-  border: none;
+/* Botón principal */
+.btn-green {
+  background-color: #2e7d32;
+  color: white;
   font-weight: 600;
+  border: none;
   transition: background-color 0.3s ease;
 }
 
-.btn-coffee:hover {
-  background-color: #55382b; 
-  color: #fff;
+.btn-green:hover {
+  background-color: #256628;
 }
 
-
 /* Footer */
-.footer-coffee {
-  background-color: #3e2723; 
-  color: #f3e5ab; 
+.footer-green {
+  background-color: #1b5e20;
+  color: #c8e6c9;
   font-family: 'Georgia', serif;
-  border-top: 3px solid #d2691e;
+  border-top: 3px solid #66bb6a;
 }
 
 .footer-link {
-  color: #f3e5ab;
+  color: #c8e6c9;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
 }
 
 .footer-link:hover {
-  color: #d2691e; 
+  color: #81c784;
   text-decoration: underline;
 }
 
 .footer-icon {
-  color: #f3e5ab;
+  color: #c8e6c9;
   font-size: 1.4rem;
   transition: color 0.3s ease;
 }
 
 .footer-icon:hover {
-  color: #d2691e;
+  color: #81c784;
 }

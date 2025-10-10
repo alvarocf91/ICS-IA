@@ -1,5 +1,5 @@
 import React from "react";
-import plantImg from "../assets/plant.jpg"; // Asegúrate de tener la imagen
+import plantImg from "./assets/plant.jpg"; 
 
 const CardsSection = () => {
   const cards = Array(4).fill({
