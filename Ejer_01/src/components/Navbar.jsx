@@ -3,7 +3,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg">
       <div className="container">
         <a className="navbar-brand text-success fw-bold fs-3" href="#inicio">
-          Naturaleza Viva
+          Floristerias de la zona
         </a>
         <button 
           className="navbar-toggler" 
