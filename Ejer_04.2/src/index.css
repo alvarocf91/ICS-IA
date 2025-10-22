@@ -1,0 +1,19 @@
+body {
+  background: #f5f7fa;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial;
+}
+
+.card {
+  border-radius: 8px;
+}
+
+.badge-resp {
+  background-color: #00d1ff;
+  color: #072b34;
+}
+
+.column-card {
+  background: #ffffff;
+  border-radius: 8px;
+}
