@@ -1,50 +1,44 @@
 export const productos = [
   {
     id: 1,
-    nombre: 'Smartwatch Pro X',
-    vendedor: { nombre: 'ElectroHub', rating: 4.8 },
-    imagenes: [
-      'https://picsum.photos/seed/watchx/400/300',
-      'https://picsum.photos/seed/watchx2/400/300'
-    ],
-    enStock: true,
-    precio: { moneda: '€', valor: 215.50, enOferta: true },
-    caracteristicas: ['GPS integrado', 'Monitor de ritmo cardíaco', 'Resistente al agua (5 ATM)']
+    nombre: 'Teclado Mecánico',
+    descripcion: 'Teclado con switches Cherry MX Red.',
+    precio: 125.50,
+    imagenURL: 'https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=200&h=200&fit=crop'
   },
   {
     id: 2,
-    nombre: 'Auriculares Inalámbricos AirWave',
-    vendedor: { nombre: 'SoundWorld', rating: 4.6 },
-    imagenes: [
-      'https://picsum.photos/seed/airwave/400/300',
-      'https://picsum.photos/seed/airwave2/400/300'
-    ],
-    enStock: true,
-    precio: { moneda: '€', valor: 89.99, enOferta: false },
-    caracteristicas: ['Cancelación de ruido', 'Autonomía 30h', 'Carga rápida USB‑C']
+    nombre: 'Ratón Gaming',
+    descripcion: 'Ratón óptico con 16000 DPI y RGB personalizable.',
+    precio: 79.99,
+    imagenURL: 'https://images.unsplash.com/photo-1527814050087-3793815479db?w=200&h=200&fit=crop'
   },
   {
     id: 3,
-    nombre: 'Cámara ActionCam 4K',
-    vendedor: { nombre: 'AdventurePro', rating: 4.4 },
-    imagenes: [
-      'https://picsum.photos/seed/actioncam/400/300',
-      'https://picsum.photos/seed/actioncam2/400/300'
-    ],
-    enStock: false,
-    precio: { moneda: '€', valor: 149.00, enOferta: true },
-    caracteristicas: ['4K a 60fps', 'Estabilización avanzada', 'Sumergible 10m']
+    nombre: 'Monitor 4K',
+    descripcion: 'Monitor de 27 pulgadas con resolución 4K y 144Hz.',
+    precio: 449.00,
+    imagenURL: 'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=200&h=200&fit=crop'
   },
   {
     id: 4,
-    nombre: 'Teclado Mecánico KeyMaster',
-    vendedor: { nombre: 'ProTyping', rating: 4.9 },
-    imagenes: [
-      'https://picsum.photos/seed/keymaster/400/300',
-      'https://picsum.photos/seed/keymaster2/400/300'
-    ],
-    enStock: true,
-    precio: { moneda: '€', valor: 129.95, enOferta: true },
-    caracteristicas: ['Switches hot‑swap', 'Retroiluminación RGB', 'Carcasa de aluminio']
+    nombre: 'Auriculares Inalámbricos',
+    descripcion: 'Auriculares con cancelación de ruido activa y 30h de batería.',
+    precio: 199.99,
+    imagenURL: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=200&h=200&fit=crop'
+  },
+  {
+    id: 5,
+    nombre: 'Webcam HD',
+    descripcion: 'Cámara web 1080p con micrófono incorporado.',
+    precio: 89.50,
+    imagenURL: 'https://images.unsplash.com/photo-1588508065123-287b28e013da?w=200&h=200&fit=crop'
+  },
+  {
+    id: 6,
+    nombre: 'Silla Gaming',
+    descripcion: 'Silla ergonómica con soporte lumbar y reposabrazos ajustables.',
+    precio: 299.00,
+    imagenURL: 'https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=200&h=200&fit=crop'
   }
-]
+];
