@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS recetas (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  titulo VARCHAR(150) NOT NULL,
+  descripcion_corta VARCHAR(255) NOT NULL,
+  ingredientes TEXT NOT NULL,
+  instrucciones TEXT NOT NULL,
+  tiempo_coccion INT NOT NULL,
+  fecha_creacion TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS comentarios (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  receta_id INT NOT NULL,
+  autor VARCHAR(100) NOT NULL,
+  texto TEXT NOT NULL,
+  fecha_creacion TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  CONSTRAINT fk_comentarios_recetas
+    FOREIGN KEY (receta_id)
+    REFERENCES recetas(id)
+    ON DELETE CASCADE
+);

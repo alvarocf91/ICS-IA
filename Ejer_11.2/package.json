@@ -1,0 +1,9 @@
+{
+  "name": "ejer-11-2-launcher",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix ejer_11-2 run dev -- --port 5173",
+    "build": "npm --prefix ejer_11-2 run build",
+    "start": "npm --prefix ejer_11-2 run start"
+  }
+}

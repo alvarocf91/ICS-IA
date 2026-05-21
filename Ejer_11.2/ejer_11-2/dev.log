@@ -1,0 +1,19 @@
+
+> ejer_11-2@0.1.0 dev
+> next dev --port 5173
+
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://localhost:5173
+- Network:       http://192.168.9.10:5173
+- Environments: .env.local
+✓ Ready in 457ms
+Creating turbopack project {
+  dir: 'C:\\Users\\Mañana\\OneDrive\\DWEC\\ICS-IA\\ICS-IA\\Ejer_11.2\\ejer_11-2',
+  testMode: true
+}
+
+ GET / 200 in 1017ms (next.js: 229ms, application-code: 788ms)
+ GET / 200 in 142ms (next.js: 4ms, application-code: 138ms)
+ GET / 200 in 136ms (next.js: 2ms, application-code: 133ms)
+ GET / 200 in 138ms (next.js: 2ms, application-code: 136ms)
+[?25h
